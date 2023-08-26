@@ -1,0 +1,18 @@
+.center{
+    display: grid;
+    
+    justify-content: center;
+}
+.center button{
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: 0px solid;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+.center .box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}

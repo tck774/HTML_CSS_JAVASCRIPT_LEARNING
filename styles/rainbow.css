@@ -1,0 +1,32 @@
+.rainbow{
+    padding: 50px;
+    color: white;
+}
+@media only screen and (max-width: 600px)  {
+    .rainbow{
+    background-color: red;}
+}
+@media only screen and (min-width: 600px)  {
+    .rainbow{
+    background-color: orange;}
+}
+@media only screen and (min-width: 700px)  {
+    .rainbow{
+    background-color: yellow;}
+}
+@media only screen and (min-width: 800px)  {
+    .rainbow{
+    background-color: green;}
+}
+@media only screen and (min-width: 900px)  {
+    .rainbow{
+    background-color: blue;}
+}
+@media only screen and (min-width: 1000px)  {
+    .rainbow{
+    background-color: indigo;}
+}
+@media only screen and (min-width: 1100px)  {
+    .rainbow{
+    background-color: violet;}
+}

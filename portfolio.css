@@ -1,0 +1,57 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.p1{
+    background-color: #00006f;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav .logo{
+    margin-left: 5%;
+    margin-right: auto;
+    width: 5%;
+    margin-top: 1%;
+}
+nav button{
+    margin-right: 5%;
+    margin-left: auto;
+    padding: 10px 30px;
+    border: none;
+    height: 50px;
+    border-radius: 8px;
+}
+nav *{
+    margin: 0px 30px;
+}
+nav p {
+    color: white;
+}
+.welcome{
+    margin-top: 50px;
+}
+.welcome *{
+    color: #FFFFF9;
+    margin-top: 10px;
+}
+.welcome h1{
+    color: white !important;
+}
+.p1 .welcome .right .circle{
+    border-radius: 100%;
+    height: 20vw;
+    width: 20vw;
+    background-color: peachpuff;
+    border-color: white;
+    border: 20px;
+}
+.p1 .welcome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    place-items: center;
+}

@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+nav{
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+nav ul li{
+    margin: 3px 20px;
+    list-style: none;
+    align-items: center;
+}
+.logo{
+    margin-right: auto
+}
+.logo img{
+    width: 50px;
+}
+.signup{
+    margin-left: auto;
+}
+.signup button{
+    background-color: gold;
+    border-width: 0px;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+.hero{
+    padding: 130px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.hero h1{
+    width: fit-content;
+    font-size: 50px;
+}
+.hero .right{
+    width: 40%;
+    transform: translate(120%,0%);
+    border-radius: 30px;
+}
+.hero .left{
+    width: 40%;
+    transform: translate(-30%,-20%);
+    border-radius: 30px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.content .right{
+    width:80%;
+    border-radius: 30px;
+}
+.content .left .list img{
+    width: 50px
+}
+.content .left .list{
+    display: grid;
+    grid-template-columns: 2fr 12fr;
+    grid-row-gap: 20px;
+    margin: 20px 30px;
+}
+.content .right img{
+    width: 120%;
+}
+.property h1{
+    margin-top: 250px;
+    margin: 100px;
+    margin-bottom: 50px;
+}
+.property .cover{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.property .fill .test{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 400px;
+    margin-left: 100px;
+}
+.property .fill .list h3{
+    margin-right:auto;
+}
+.property .cover .fill .list{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: lemonchiffon;
+    padding-right: 200px;
+    padding-top:50px;
+    padding-left: 30px;
+    grid-row-gap: 20px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+
+    
+}
+.property .fill{
+    display: flex;
+    flex-wrap: wrap;
+}
+.property .fill .list .logo{
+    width: 40px;
+}
+.property .fill .list div{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.quote h1{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.quote .quoting img{
+    width: 500px;
+    border-radius: 30px;
+    margin-left: 100px
+}
+.quote .quoting p{
+    font-size: 17px;
+    margin-left: 300px;
+}
+.quote .quoting{
+    display: flex;
+    align-items: center;
+}
+.overlap h1{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.overlap .images *{
+    width: 425px;
+    border-radius: 30px;
+    margin: 0px 100px;
+    transform: translate(0%,40%);
+}
+.overlap .rec{
+    background-color: white;
+
+    width: 500px;
+    
+}
+
+
+
+
+
+
+
+.bottom{
+    margin-top: 250px;
+    background-color: teal;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-bottom: 25px;
+}
+.bottom h1{
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.bottom .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 25px;
+    font-size: 17px;
+    color: white;
+    margin-left: 100px;
+}
+.bottom button{
+    border-width: 0px;
+    margin-top:100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 18px 20px;
+}
+.bottom .logo{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.bottom .copyright{
+    color: white;
+    margin-top: 75px;
+    margin-right: 100px;
+    float: right;
+}

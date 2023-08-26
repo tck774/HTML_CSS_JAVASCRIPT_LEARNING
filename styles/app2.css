@@ -1,0 +1,249 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+    
+    
+}
+nav ul div{
+    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: greenyellow;
+    
+}
+nav ul div li{
+    display: flex;
+    align-items: center;
+    padding: 50px 50px;
+    
+}
+nav .cover{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    height: 118px;
+    background-color: greenyellow;
+
+}
+.logo{
+    width: 300px;
+    height: 118px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 75px;
+    
+    
+}
+.content .row img{
+    width: 70%;
+}
+.content .row {
+    display: flex;
+    flex-direction: row;
+    
+}
+.content .row .cover{
+    background-color: greenyellow;
+    width: 30%;
+}
+.content{
+    align-items: center;
+}
+.content .info{
+    display: flex;
+    align-items: center;
+    
+}
+.content .info .left{
+    height: 300px;
+    width: 100px;
+    background-color: yellowgreen;
+    opacity: 50%;
+    transform: translate(1000%,-170%);
+}
+.content .info .right{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    transform: translate(200%,-170%);
+}
+.content .info .right h1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.content .info .right p{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.content .row .cover a img{
+    width:  30px;
+}
+
+.content .row .cover a{
+    margin: 10px 30px;
+}
+.content .row .cover{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.info .learn button{
+    background-color: yellowgreen;
+    padding: 30px 50px;
+    box-shadow: 5px 5px 100px 0px grey;
+    border: none;
+    text-decoration: none;
+    color:white;
+    transform: translate(350%,-480%);
+}
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.service .left{
+    background-color: white;
+    height: 300px;
+    width: 450px;
+    
+}
+.service .right{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    box-shadow: 5px 5px 100px 0px grey;
+    
+}
+.service .mid{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    box-shadow: 5px 5px 100px 0px grey;
+}
+.service .left button{
+    margin-top: 30px;
+    background-color: yellowgreen;
+    padding: 30px 75px;
+    border: none;
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.service .left p{
+    margin-top: 30px;
+}
+.service .mid img{
+    width: 75px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.service .right img{
+    width: 75px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.service .mid p{
+    margin-top: 10px;
+}
+.service .right p{
+    margin-top: 10px;
+}
+.content2 img{
+    width: 55%;
+}
+.content2 .cover{
+    background-color: yellowgreen;
+    height: 370px;
+    width: 100px;
+    opacity: 70%;
+    transform: translate(-100%,0%);
+}
+.content2{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+.content2 .text{
+    background-color: white;
+    box-shadow: 5px 5px 100px 0px grey;
+    height: 370px;
+    width: 450px;
+    transform: translate(-22%,0%);
+}
+.content2 .text *{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.content2 .text button{
+    background-color: yellowgreen;
+    padding: 30px 70px;
+    margin-top: 35px;
+    border: none;
+    text-decoration: none;
+    color:white;
+}
+.content2 .text .small{
+    font-size: 13px;
+}
+.rows{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rows img{
+    width: 50px
+}
+.rows .right *{
+    margin-top: 10px;
+}
+.rows .left *{
+    margin-top: 10px;
+}
+.rows .mid *{
+    margin-top: 10px;
+}
+.contact {
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.contact .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 0px;
+    margin-top: 25px;
+}
+.contact .grid a img{
+    width: 25px;
+}
+.contact .grid .buttons button{
+    background-color: yellowgreen;
+    padding: 25px 70px;
+    border: none;
+    text-decoration: none;
+    color:white;
+}
+.contact .grid .buttons .up{
+    margin-right: 100px;
+    margin-left: 25px;
+    padding: 25px 40px;
+}
+.end{
+    margin-top: 100px;
+    padding-bottom: 50px;
+    font-size: 13.5px;
+}
