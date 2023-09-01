@@ -2,9 +2,43 @@
     padding: 0px 0px;
     margin: 0px 0px;
 }
+html {
+    scroll-behavior: smooth;
+  }
 .p1{
     background-color: #00006f;
 }
+.aboutme a:link{color: white;}
+.aboutme a:visited{
+    color: white;
+    
+}
+.aboutme a:hover{
+    background: linear-gradient(to left, #ff9933 0%, #ff99cc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.skills a:link{color: white;}
+.skills a:visited{
+    color: white;
+    
+}
+.skills a:hover{
+    background: linear-gradient(to left, #ff9933 0%, #ff99cc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.portfolio a:link{color: white;}
+.portfolio a:visited{
+    color: white;
+    
+}
+.portfolio a:hover{
+    background: linear-gradient(to left, #ff9933 0%, #ff99cc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 nav{
     display: flex;
     justify-content: center;
@@ -20,7 +54,7 @@ nav .logo{
 nav button{
     margin-right: 5%;
     margin-left: auto;
-    padding: 10px 30px;
+    padding: 1% 3.5%;
     border: none;
     height: 50px;
     border-radius: 8px;
@@ -31,8 +65,15 @@ nav *{
 nav p {
     color: white;
 }
+.welcome .left{
+    margin-bottom: 50px;
+}
+.welcome .left *{
+    margin-bottom: 25px;
+}
 .welcome{
     margin-top: 50px;
+    padding-bottom: 50px;
 }
 .welcome *{
     color: #FFFFF9;
@@ -41,17 +82,61 @@ nav p {
 .welcome h1{
     color: white !important;
 }
+.p1 .welcome .right div{
+    
+    display: flex;
+    align-items: center;
+}
 .p1 .welcome .right .circle{
     border-radius: 100%;
     height: 20vw;
     width: 20vw;
-    background-color: peachpuff;
-    border-color: white;
-    border: 20px;
+    background-color: #ffb972;
+    border: 5px solid white;
+    position: relative;
+}
+.p1 .welcome .right img{
+    width: 9vw;
+    position: absolute;
+    left: 71vw
 }
 .p1 .welcome {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     place-items: center;
+}
+.p2{
+    background-color: #00008B;
+}
+.p2 .about{
+    padding-top:100px;
+}
+.p2 .about .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    place-items: center;
+}
+.p2 .about .grid .left img{
+    width:40vw;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.p2 .about .grid .right{
+    color: white;
+    margin-right: 50px;
+}
+.p2 .about .grid .right p{
+    margin-top: 30px;
+    opacity: 70%;
+}
+.p1 .welcome p,h4{opacity: 70%;}
+#scrollup{
+    
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
 }
